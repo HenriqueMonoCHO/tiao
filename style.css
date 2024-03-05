@@ -2,7 +2,7 @@ body{
     background-color: blueviolet;
     color: aquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px;
+    margin: 0px;
     text-align: center;
 
 }
@@ -28,5 +28,18 @@ nav a{
 nav a:hover{
     color: burlywood;
     text-decoration: none;
-    cursor: ;
+    cursor: crosshair;
+}
+
+section {
+    margin: 40px;
+}
+
+footer{
+    background-color: purple;
+    color: violet;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
